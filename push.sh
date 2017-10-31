@@ -1,5 +1,5 @@
 git add .
-str="'$*'"
+str="$*"
 if [ $# -eq 0 ]
 then
 	git commit -m "shell push"
